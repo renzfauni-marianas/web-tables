@@ -1,0 +1,75 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+table {
+    border-collapse: collapse;
+}
+div.schedule-container {
+    padding: 10px;
+    align-self:auto
+}
+table.schedule {
+    border: 5px ridge rgb(2, 88, 132);
+    border-collapse: collapse;
+    font-size: 11px;
+}
+table.schedule td, th{
+    padding: 5px;
+    border: 1px solid black;
+}
+table.schedule thead {
+    background-color: darkslategray;
+    color: white;
+}
+table.schedule tfoot {
+    background-color: black;
+    color: white;
+}
+td.spanned {
+    background-color: lightskyblue;
+    text-align: center;
+}
+td.spanned1 {
+    background-color: rgb(144, 238, 235);
+    text-align: center;
+}
+td.spanned2 {
+    background-color: rgb(34, 98, 137);
+    text-align: center;
+}
+td.spanned3 {
+    background-color: rgb(51, 82, 232);
+    text-align: center;
+}
+td.spanned4 {
+    background-color: rgb(34, 166, 111);
+    text-align: center;
+}
+td.spanned5 {
+    background-color: rgb(164, 95, 233);
+    text-align: center;
+}
+td.spanned6 {
+    background-color: rgb(212, 57, 124);
+    text-align: center;
+}
+td.spanned7 {
+    background-color: rgb(249, 243, 59);
+    text-align: center;
+}
+table.schedule tr td:nth-child(1){
+    text-align: center;
+    font-weight: bold;
+    background-color: slategray;
+}
+table tbody>tr:hover{
+    background-color: aqua;
+    font-style: italic;
+}
+table caption{
+    caption-side: bottom;
+    text-align: right;
+}
+col#dayofweek {
+    background-color: slategray;
+}
